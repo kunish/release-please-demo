@@ -18,7 +18,6 @@ jobs:
         with:
           release-type: node
           package-name: ${{ github.repository }}
-          command: github-release
 
       - name: Upload Release Artifact
         uses: softprops/action-gh-release@v1
